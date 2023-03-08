@@ -1,0 +1,97 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'passion';
+    src: url(Fonts/PassionOne-Black.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'sriracha';
+    src: url(Fonts/Sriracha-Regular.ttf) format(truetype);
+}
+
+body{
+    margin: 0px;
+    color: black;
+}
+
+header{
+    width: auto;
+    height: 120px;
+    margin: 0px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+header > h1{
+    margin: 0px;
+    padding: 20px 0px 0px 0px;
+    font-size: 3em;
+    font-family: 'passion';
+}
+
+header > a{
+    color: white;
+    font-size: 1em;
+    font-family: 'sriracha';
+    text-decoration: none;
+}
+
+header > a:hover{
+    transition: 0.5s;
+    font-size: 1.2em;
+    text-decoration: underline;
+}
+
+main{
+    margin: auto;
+    width: max-content;
+    height: auto;
+    padding: 0px;
+    font-size: 1.2em;
+    font-family: 'sriracha';
+    box-shadow: 0px 0px 10px black;
+}
+
+div{
+    width: 400px;
+    height: auto;
+    padding: 20px 20px 20px 20px;
+}
+
+div:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+
+p{
+    margin: 0px;
+    width: max-content;
+    padding: 5px;
+}
+
+.fundo01{
+    color: white;
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+}
+
+.fundo02{
+    color: white;
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-position: right center;
+    background-attachment: fixed;
+}
+
+.fundo01 > p{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.fundo02 > p{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
