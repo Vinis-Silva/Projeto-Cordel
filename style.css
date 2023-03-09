@@ -13,7 +13,15 @@ body{
     color: black;
 }
 
+#camada{
+    width: 100%;
+    height: 120px;
+    margin: 0px;
+    padding: 0px;
+}
+
 header{
+    position: fixed;
     width: 100%;
     height: 120px;
     margin: 0px;
